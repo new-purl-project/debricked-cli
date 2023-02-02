@@ -16,4 +16,4 @@ jobs:
         USER: ${{ secrets.DEBRICKED_USERNAME }}
         PASS: ${{ secrets.DEBRICKED_PASSWORD }}
         TOKEN: ${{ secrets.DEBRICKED_TOKEN }}
-        EXCLUDED_DIRECTORIES: "vendor,tests"
+        EXCLUDED_DIRECTORIES: "vendor"

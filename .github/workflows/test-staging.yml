@@ -17,4 +17,4 @@ jobs:
         PASS: ${{ secrets.DEBRICKED_STAGING_PASSWORD }}
         TOKEN: ${{ secrets.DEBRICKED_STAGING_TOKEN }}
         URI: ${{ secrets.DEBRICKED_STAGING_URI }}
-        EXCLUDED_DIRECTORIES: "vendor,tests"
+        EXCLUDED_DIRECTORIES: "vendor"
